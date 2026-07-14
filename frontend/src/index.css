@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.avatar {
+  @apply flex items-center justify-center rounded-full text-white font-semibold text-sm shrink-0;
+}
+
+.btn-primary {
+  @apply bg-brand-500 hover:bg-brand-600 text-white font-semibold px-5 py-2.5 rounded-xl transition-colors shadow-sm;
+}
+
+.btn-secondary {
+  @apply bg-mint-500 hover:bg-mint-600 text-white font-semibold px-5 py-2.5 rounded-xl transition-colors shadow-sm;
+}
+
+.card {
+  @apply bg-white rounded-2xl shadow-card border border-gray-100;
+}
